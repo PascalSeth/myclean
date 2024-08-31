@@ -15,7 +15,7 @@ function Navbar({}: Props) {
             </div>
             <div className='flex font-semibold text-[#0A8791] space-x-3'>
                 <Link href='/'>Home</Link>
-                <Link href='Pricing'>About Us</Link>
+                <Link href='aboutUs'>About Us</Link>
                 <Link href='Testimonials'>Testimonials</Link>
             </div>
             <div>
