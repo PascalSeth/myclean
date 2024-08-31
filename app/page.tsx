@@ -3,7 +3,7 @@ import Homepage from "./components/Homepage";
 
 export default function Home() {
   return (
-    <main className="w-full flex flex-col h-screen">
+    <main className="w-full flex overflow-x-hidden flex-col h-screen">
       <Homepage/>
     </main>
   );
