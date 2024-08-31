@@ -6,7 +6,7 @@ type Props = {};
 const ContactUs: React.FC<Props> = () => {
   return (
     <section id='ContactUs' className="bg-gradient-to-r w-full h-full overflow-x-hidden from-[#0A8791] to-[#06484d] text-white py-5 px-4">
-            <div className="flex justify-end mt-2">
+            <div className="flex justify-end mt-2 p-2">
         <Image height={60} width={60} src='/g1.png' alt='Company Logo' />
       </div>
       <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8">

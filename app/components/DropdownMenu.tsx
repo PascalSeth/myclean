@@ -18,12 +18,9 @@ export default function DropdownMenuIcon({}: Props) {
     <DropdownMenu>
     <DropdownMenuTrigger><Menu/></DropdownMenuTrigger>
     <DropdownMenuContent>
-      <DropdownMenuLabel>My Account</DropdownMenuLabel>
-      <DropdownMenuSeparator />
-      <DropdownMenuItem>Profile</DropdownMenuItem>
-      <DropdownMenuItem>Billing</DropdownMenuItem>
+      <DropdownMenuItem>Home</DropdownMenuItem>
+      <DropdownMenuItem>About Us</DropdownMenuItem>
       <DropdownMenuItem>Team</DropdownMenuItem>
-      <DropdownMenuItem>Subscription</DropdownMenuItem>
     </DropdownMenuContent>
   </DropdownMenu>
   )
