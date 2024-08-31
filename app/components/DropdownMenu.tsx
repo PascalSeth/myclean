@@ -17,7 +17,7 @@ export default function DropdownMenuIcon({}: Props) {
   return (
     <DropdownMenu>
     <DropdownMenuTrigger><Menu/></DropdownMenuTrigger>
-    <DropdownMenuContent className='bg-white'>
+    <DropdownMenuContent className='bg-white z-[999999]'>
       <DropdownMenuItem>Home</DropdownMenuItem>
       <DropdownMenuItem>About Us</DropdownMenuItem>
       <DropdownMenuItem>Team</DropdownMenuItem>

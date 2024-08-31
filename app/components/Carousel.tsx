@@ -28,14 +28,14 @@ const Carousel: React.FC = () => {
   };
 
   return (
-    <div className="max-w-6xl p-3 mx-auto max-lg:max-w-6xl rounded-[1pc] ">
+    <div className="max-w-5xl p-3 mx-auto max-lg:max-w-6xl rounded-[1pc] ">
       <Slider {...settings}> 
         {slides.map((slide, index) => (
           <div key={index} className="flex justify-center rounded-[1pc] items-center">
             <img
               src={slide.imgSrc}
               alt={slide.altText}
-              className="w-full h-[500px] max-lg:h-[250px] object-fill rounded-[1pc]"
+              className="w-full h-[450px] max-lg:h-[250px] object-fill rounded-[1pc]"
             />
           </div>
         ))}
