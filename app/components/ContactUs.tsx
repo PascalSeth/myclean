@@ -14,7 +14,7 @@ const ContactUs: React.FC<Props> = () => {
         transition={{ duration: 0.8 }} 
         className="flex justify-end mb-4 mx-4"
       >
-        <Image height={60} width={60} src='/g1.png' alt='Company Logo' />
+        <Image height={60} width={60} src='/a1.png' alt='Company Logo' />
       </motion.div>
 
       <motion.div 
