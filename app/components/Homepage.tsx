@@ -9,7 +9,7 @@ type Props = {};
 
 const Homepage: React.FC<Props> = () => {
   return (
-    <div className="w-full">
+    <div className="w-full h-full">
       <Hero />
       <main className="">
                 <Destinations />
