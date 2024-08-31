@@ -3,7 +3,6 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 import { BsAndroid, BsApple } from 'react-icons/bs';
-import { Apple } from 'lucide-react';
 
 type Props = {};
 
@@ -20,22 +19,20 @@ const Hero: React.FC<Props> = () => {
             href="https://play.google.com/store/apps/details?id=com.example.mycleanapp"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center bg-[#0A8791] font-semibold text-white px-6 py-3 rounded-lg shadow-md hover:bg-[#065e62] transition duration-300"
+            className="flex items-center bg-[#0A8791] font-semibold text-white px-6 py-3 rounded-[1pc] shadow-md hover:bg-[#065e62] transition duration-300"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
-         
-            Get for Android   <BsAndroid className='ml-2'/>
+            Get for Android <BsAndroid className='ml-2'/>
           </motion.a>
           <motion.a
             href="https://apps.apple.com/us/app/mycleanapp/id123456789"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center bg-[#333333] font-semibold text-white px-6 py-3 rounded-lg shadow-md hover:bg-[#1a1a1a] transition duration-300"
+            className="flex items-center bg-[#333333] font-semibold text-white px-6 py-3 rounded-[1pc] shadow-md hover:bg-[#1a1a1a] transition duration-300"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
-
             Get for iOS <BsApple className='ml-2 items-center'/>
           </motion.a>
         </div>
@@ -50,8 +47,26 @@ const Hero: React.FC<Props> = () => {
           </div>
         </div>
       </div>
-      <div className="hidden md:block">
-        <Image src="/g1.png" alt="App preview" className="max-w-xs" width={300} height={300} />
+      <div className="hidden md:flex items-center relative">
+        <div className="relative">
+          <Image
+            src="/mycleanhome.png"
+            alt="App preview"
+            className="relative z-10 max-w-xs"
+            width={200}
+            height={200}
+          />
+        </div>
+       
+        <div className="absolute -top-7 right-[-30%] z-0">
+          <Image
+            src="/mycleanaccount.png"
+            alt="App preview"
+            className="max-w-xs"
+            width={200}
+            height={200}
+          />
+        </div>
       </div>
     </section>
   );

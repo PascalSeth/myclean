@@ -4,6 +4,7 @@ import Destinations from './Destination';
 import Carousel from './Carousel';
 import OurPartners from './Partners';
 import ContactUs from './ContactUs';
+import Features from './Features';
 
 type Props = {};
 
@@ -16,6 +17,7 @@ const Homepage: React.FC<Props> = () => {
                 <Carousel />
                 <OurPartners/>
                 <ContactUs/>
+                <Features/>
 
       </main>
     </div>
