@@ -16,9 +16,9 @@ const Homepage: React.FC<Props> = () => {
                 <Destinations />
                 <Carousel />
                 <OurPartners/>
-                <ContactUs/>
-                <Features/>
-
+                   <Features/>
+ <ContactUs/>
+            
       </main>
     </div>
   );
