@@ -5,7 +5,7 @@ import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn } from 'react-icons/f
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-[#0A8791] static bottom-0 left-0 right-0 text-white py-10 px-6">
+    <footer className="bg-gradient-to-r from-[#64ced6] to-gray-600 static bottom-0 left-0 right-0 text-white py-10 px-6">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
         {/* Quick Links */}
         <div>
