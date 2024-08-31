@@ -66,7 +66,7 @@ const ContactUs: React.FC<Props> = () => {
             <motion.button
               whileHover={{ scale: 1.1 }}
               type="submit"
-              className="w-full bg-blue-600 text-white p-3 rounded-lg shadow-lg hover:bg-blue-700 transition-colors"
+              className="w-full bg-[#0A8791] text-white p-3 rounded-lg shadow-lg hover:bg-[#0a889186] transition-colors"
             >
               Send Message
             </motion.button>
