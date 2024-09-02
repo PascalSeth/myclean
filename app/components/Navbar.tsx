@@ -48,7 +48,7 @@ function Navbar({}: Props) {
               animate={{ scale: 1, opacity: 1 }}
               transition={{ duration: 0.3, delay: 0.2 }}
             >
-              <Image width={40} height={40} src='/g1.png' alt='MyClean Logo' />
+              <Image width={40} height={40} src='/a1.png' alt='MyClean Logo' />
             </motion.div>
             <motion.div
               initial={{ opacity: 0 }}
