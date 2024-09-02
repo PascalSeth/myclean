@@ -12,12 +12,12 @@ const destinations: DestinationProps[] = [
   {
     title: 'Residential Waste',
     description: 'Manage household garbage effectively with scheduled pickups and proper waste segregation.',
-    imgSrc: 'https://i.pinimg.com/originals/6f/2f/62/6f2f626258a9cfadb1f8508848de646d.jpg',
+    imgSrc: 'https://zoomlionghana.com/wp-content/uploads/2023/08/Zoomlion_cleaning.jpg',
   },
   {
     title: 'Commercial Waste',
     description: 'Handle waste from commercial establishments with our efficient and scalable solutions.',
-    imgSrc: 'https://i.pinimg.com/originals/a4/57/86/a457869e5f6403ad4bfac7cd6173f79f.jpg',
+    imgSrc: 'https://starrfm.com.gh/wp-content/uploads/2023/05/5-696x522.jpg',
   },
   {
     title: 'Recycling',

@@ -47,7 +47,7 @@ const Hero: React.FC<Props> = () => {
           </div>
         </div>
       </div>
-      <div className="hidden md:flex items-center relative">
+      <div className="hidden md:flex hover:scale-105 items-center relative">
         <div className="relative">
           <Image
             src="/mycleanhome.png"

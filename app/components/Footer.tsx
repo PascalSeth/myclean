@@ -2,6 +2,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
+import { BsAndroid, BsApple } from 'react-icons/bs';
+import { FaX } from 'react-icons/fa6';
 
 const Footer: React.FC = () => {
   return (
@@ -23,6 +25,14 @@ const Footer: React.FC = () => {
             <li>
               <a href="#ContactUs" className="hover:text-gray-300 transition-colors">Contact Us</a>
             </li>
+            <li>
+              <a href="/privacy-policy" className="hover:text-gray-300 transition-colors">Privacy Policy</a>
+            </li>
+            <li>
+              <a href="/delete-account" className="hover:text-gray-300 transition-colors">Delete Account</a>
+            </li>
+            
+
           </ul>
         </div>
 
@@ -51,21 +61,14 @@ const Footer: React.FC = () => {
         <div>
           <h3 className="text-xl font-bold mb-4">Follow Us</h3>
           <div className="flex space-x-4">
+         
             <motion.a
               href="#"
               className="bg-white text-[#0A8791] p-3 rounded-full hover:bg-gray-200 transition-colors"
               whileHover={{ scale: 1.2, rotate: 10 }}
               whileTap={{ scale: 0.9 }}
             >
-              <FaFacebookF />
-            </motion.a>
-            <motion.a
-              href="#"
-              className="bg-white text-[#0A8791] p-3 rounded-full hover:bg-gray-200 transition-colors"
-              whileHover={{ scale: 1.2, rotate: 10 }}
-              whileTap={{ scale: 0.9 }}
-            >
-              <FaTwitter />
+              <FaX />
             </motion.a>
             <motion.a
               href="#"
@@ -75,15 +78,30 @@ const Footer: React.FC = () => {
             >
               <FaInstagram />
             </motion.a>
-            <motion.a
-              href="#"
-              className="bg-white text-[#0A8791] p-3 rounded-full hover:bg-gray-200 transition-colors"
-              whileHover={{ scale: 1.2, rotate: 10 }}
-              whileTap={{ scale: 0.9 }}
-            >
-              <FaLinkedinIn />
-            </motion.a>
+       
           </div>
+          <div className="flex items-center space-x-4 m-4">
+          <motion.a
+            href="https://play.google.com/store/apps/details?id=com.example.mycleanapp"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center bg-[#0A8791] font-semibold text-white px-6 py-3 rounded-[1pc] shadow-md hover:bg-[#065e62] transition duration-300"
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+          >
+            Get for Android <BsAndroid className='ml-2'/>
+          </motion.a>
+          <motion.a
+            href="https://apps.apple.com/us/app/mycleanapp/id123456789"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center bg-[#333333] font-semibold text-white px-6 py-3 rounded-[1pc] shadow-md hover:bg-[#1a1a1a] transition duration-300"
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+          >
+            Get for iOS <BsApple className='ml-2 items-center'/>
+          </motion.a>
+        </div>
         </div>
       </div>
 

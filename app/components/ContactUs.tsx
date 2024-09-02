@@ -2,6 +2,8 @@
 import Image from 'next/image';
 import React from 'react';
 import { motion } from 'framer-motion';
+import { FaInstagram } from 'react-icons/fa';
+import { FaX } from 'react-icons/fa6';
 
 type Props = {};
 
@@ -83,33 +85,40 @@ const ContactUs: React.FC<Props> = () => {
           <div>
             <h3 className="text-2xl font-semibold">Contact Information</h3>
             <p className="mt-4">
-              Phone: <a href="tel:+233564567890" className="text-blue-200">+233 564567890</a>
+              Phone: <a href="tel:+233542573141" className="text-blue-200">+233 542 573 141</a>
             </p>
-            <p>Email: <a href="mailto:contact@yourdomain.com" className="text-blue-200">contact@yourdomain.com</a></p>
+            <p>Email: <a href="mailto:contact@mycleanapp.org" className="text-blue-200">contact@mycleanapp.org</a></p>
           </div>
-          <div>
+          {/* <div>
             <h3 className="text-2xl font-semibold">Address</h3>
             <p className="mt-4">
               667567 Avenue Somewhere, <br />
               Accra, Madina, <br />
               Ghana, 12345
             </p>
-          </div>
+          </div> */}
           <div className="mt-6">
             <h3 className="text-2xl font-semibold">Follow Us</h3>
             <div className="flex space-x-4 mt-4">
-              <motion.a 
-                whileHover={{ scale: 1.2 }}
-                href="#" 
-                className="text-blue-200 hover:text-white"
-              >
-                {/* Social Icon */}
-                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="w-6 h-6" viewBox="0 0 24 24">
-                  <path d="M12 2.04c-5.523 0-10 4.478-10 10 0 4.991 3.657 9.128 8.438 9.878v-6.99h-2.54v-2.727h2.54v-2.09c0-2.507 1.492-3.89 3.775-3.89 1.094 0 2.24.196 2.24.196v2.46h-1.26c-1.242 0-1.63.772-1.63 1.56v1.763h2.773l-.443 2.727h-2.33v6.99c4.781-.75 8.438-4.887 8.438-9.878 0-5.522-4.478-10-10-10z"/>
-                </svg>
-              </motion.a>
-              {/* Repeat for other social icons */}
-            </div>
+         
+         <motion.a
+           href="#"
+           className="bg-white text-[#0A8791] p-3 rounded-full hover:bg-gray-200 transition-colors"
+           whileHover={{ scale: 1.2, rotate: 10 }}
+           whileTap={{ scale: 0.9 }}
+         >
+           <FaX />
+         </motion.a>
+         <motion.a
+           href="#"
+           className="bg-white text-[#0A8791] p-3 rounded-full hover:bg-gray-200 transition-colors"
+           whileHover={{ scale: 1.2, rotate: 10 }}
+           whileTap={{ scale: 0.9 }}
+         >
+           <FaInstagram />
+         </motion.a>
+    
+       </div>
           </div>
         </motion.div>
       </motion.div>  
