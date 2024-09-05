@@ -10,9 +10,9 @@ interface SlideProps {
 }
 
 const slides: SlideProps[] = [
-  { imgSrc: 'https://images.unsplash.com/photo-1650112274147-03a2dba421c8?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', altText: 'Slide 1' },
-  { imgSrc: 'https://images.unsplash.com/photo-1510251197878-a2e6d2cb590c?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', altText: 'Slide 2' },
-  { imgSrc: 'https://images.unsplash.com/photo-1594741243587-90ef02c1dc68?q=80&w=1467&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', altText: 'Slide 3' },
+  { imgSrc: 'https://i.pinimg.com/236x/00/7c/dd/007cdd95e91c80c70160ed85303ec917.jpg', altText: 'Slide 1' },
+  { imgSrc: 'https://i.pinimg.com/236x/27/29/2f/27292faf4a643bea23ce3feb3d33eff8.jpg', altText: 'Slide 2' },
+  { imgSrc: 'https://i.pinimg.com/236x/f8/5e/bd/f85ebd5ffe471d1657fae22ed15f2f82.jpg', altText: 'Slide 3' },
   { imgSrc: 'https://www.graphic.com.gh/images/2021/oct/26/aboboyaa3.jpg', altText: 'Slide 3' },
 
 ];
