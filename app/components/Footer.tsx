@@ -63,7 +63,7 @@ const Footer: React.FC = () => {
           <div className="flex space-x-4">
          
             <motion.a
-              href="#"
+              href="https://x.com/MycleanApp"
               className="bg-white text-[#0A8791] p-3 rounded-full hover:bg-gray-200 transition-colors"
               whileHover={{ scale: 1.2, rotate: 10 }}
               whileTap={{ scale: 0.9 }}
@@ -71,7 +71,7 @@ const Footer: React.FC = () => {
               <FaX />
             </motion.a>
             <motion.a
-              href="#"
+              href="https://www.instagram.com/myclean.app/"
               className="bg-white text-[#0A8791] p-3 rounded-full hover:bg-gray-200 transition-colors"
               whileHover={{ scale: 1.2, rotate: 10 }}
               whileTap={{ scale: 0.9 }}
