@@ -1,5 +1,4 @@
 'use client'
-import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import { motion } from 'framer-motion'
@@ -21,7 +20,7 @@ function Navbar({}: Props) {
               animate={{ scale: 1, opacity: 1 }}
               transition={{ duration: 0.3, delay: 0.2 }}
             >
-              <Image width={60} height={60} src='/a1.png' alt='MyClean Logo' />
+              <img width={60} height={60} src='/a1.png' alt='MyClean Logo' />
             </motion.div>
             <motion.div 
               className='flex font-semibold text-[#0A8791] space-x-6'
@@ -48,7 +47,7 @@ function Navbar({}: Props) {
               animate={{ scale: 1, opacity: 1 }}
               transition={{ duration: 0.3, delay: 0.2 }}
             >
-              <Image width={40} height={40} src='/a1.png' alt='MyClean Logo' />
+              <img width={40} height={40} src='/a1.png' alt='MyClean Logo' />
             </motion.div>
             <motion.div
               initial={{ opacity: 0 }}

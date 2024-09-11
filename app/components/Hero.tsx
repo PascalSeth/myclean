@@ -1,7 +1,6 @@
 'use client'
 import React from 'react';
 import { motion } from 'framer-motion';
-import Image from 'next/image';
 import { BsAndroid, BsApple } from 'react-icons/bs';
 
 type Props = {};
@@ -49,7 +48,7 @@ const Hero: React.FC<Props> = () => {
       </div>
       <div className="hidden md:flex hover:scale-105 items-center relative">
         <div className="relative">
-          <Image
+          <img
             src="/mycleanhome.png"
             alt="App preview"
             className="relative z-10 max-w-xs"
@@ -59,7 +58,7 @@ const Hero: React.FC<Props> = () => {
         </div>
        
         <div className="absolute -top-7 right-[-30%] z-0">
-          <Image
+          <img
             src="/mycleanaccount.png"
             alt="App preview"
             className="max-w-xs"

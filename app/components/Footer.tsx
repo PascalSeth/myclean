@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
 import { BsAndroid, BsApple } from 'react-icons/bs';
 import { FaX } from 'react-icons/fa6';
+import Link from 'next/link';
 
 const Footer: React.FC = () => {
   return (
@@ -26,10 +27,10 @@ const Footer: React.FC = () => {
               <a href="#ContactUs" className="hover:text-gray-300 transition-colors">Contact Us</a>
             </li>
             <li>
-              <a href="/privacy-policy" className="hover:text-gray-300 transition-colors">Privacy Policy</a>
+              <Link href="/privacy-policy" className="hover:text-gray-300 transition-colors">Privacy Policy</Link>
             </li>
             <li>
-              <a href="/delete-account" className="hover:text-gray-300 transition-colors">Delete Account</a>
+              <Link href="/delete-account" className="hover:text-gray-300 transition-colors">Delete Account</Link>
             </li>
             
 

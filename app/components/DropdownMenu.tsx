@@ -8,7 +8,6 @@ import {
 } from '@/components/ui/sheet';
 import { Menu } from 'lucide-react';
 import Link from 'next/link';
-import Image from 'next/image';
 
 type Props = {};
 
@@ -18,10 +17,10 @@ export function DropdownMenuIcon({}: Props) {
       <SheetTrigger asChild>
         <Menu className="cursor-pointer text-[#0A8791] text-2xl hover:text-[#06484d] transition-colors duration-300" />
       </SheetTrigger>
-      <SheetContent className="bg-white text-[#0A8791] shadow-lg rounded-lg p-6 z-[999999] max-w-sm mx-auto">
+      <SheetContent side={'top'} className="bg-white text-[#0A8791] shadow-lg rounded-lg p-6 z-[999999] w-full">
         <SheetHeader>
           <SheetTitle className="text-2xl font-bold mb-4 border-b-2 border-[#0A8791] pb-2">
-          <Image src='/a1.png' alt="" width={50} height={50}/>
+          <img src='/a1.png' alt="" width={50} height={50}/>
             </SheetTitle>
         </SheetHeader>
         <div className="space-y-4 font-semibold">

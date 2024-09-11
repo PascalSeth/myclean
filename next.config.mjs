@@ -6,6 +6,7 @@ const nextConfig = {
         // Add other domains here if needed
       ],
     },
+    // output:'export'
   };
   
   export default nextConfig;

@@ -1,6 +1,5 @@
 'use client';
 import React from 'react';
-import Image from 'next/image';
 import { motion } from 'framer-motion';
 
 interface PartnerProps {
@@ -37,7 +36,7 @@ const OurPartners: React.FC = () => {
               transition: { duration: 0.3, ease: "easeInOut" },
             }}
           >
-            <Image
+            <img
               src={partner.logoSrc}
               alt={partner.altText}
               width={80}
