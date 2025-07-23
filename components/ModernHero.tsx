@@ -73,7 +73,7 @@ const ModernHero: React.FC = () => {
               className="flex flex-col sm:flex-row gap-8 text-center lg:text-left"
             >
               <div>
-                <div className="text-3xl font-bold text-gray-900">200k+</div>
+                <div className="text-3xl font-bold text-gray-900">200+</div>
                 <div className="text-gray-600">Active Users</div>
               </div>
               <div>
