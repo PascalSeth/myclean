@@ -73,7 +73,7 @@ const ModernHero: React.FC = () => {
               className="flex flex-col sm:flex-row gap-8 text-center lg:text-left"
             >
               <div>
-                <div className="text-3xl font-bold text-gray-900">700K+</div>
+                <div className="text-3xl font-bold text-gray-900">200k+</div>
                 <div className="text-gray-600">Active Users</div>
               </div>
               <div>
@@ -81,7 +81,7 @@ const ModernHero: React.FC = () => {
                 <div className="text-gray-600">App Store Rating</div>
               </div>
               <div>
-                <div className="text-3xl font-bold text-gray-900">50+</div>
+                <div className="text-3xl font-bold text-gray-900">10+</div>
                 <div className="text-gray-600">Cities Served</div>
               </div>
             </motion.div>
