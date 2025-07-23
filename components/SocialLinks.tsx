@@ -45,7 +45,7 @@ const SocialLinks: React.FC<SocialLinksProps> = ({ variant = "default", size = "
     { href: socialLinks.twitter, icon: FaX, label: "Twitter" },
     { href: socialLinks.instagram, icon: FaInstagram, label: "Instagram" },
     { href: socialLinks.facebook, icon: FaFacebookF, label: "Facebook" },
-    { href: socialLinks.linkedin, icon: FaLinkedinIn, label: "LinkedIn" },
+    // { href: socialLinks.linkedin, icon: FaLinkedinIn, label: "LinkedIn" },
   ]
 
   return (
