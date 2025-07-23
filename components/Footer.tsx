@@ -5,6 +5,7 @@ import Link from "next/link"
 import SocialLinks from "./SocialLinks"
 import AppStoreButtons from "./AppStoreButtons"
 import { APP_LINKS } from "@/config/links"
+import Image from "next/image"
 
 const Footer: React.FC = () => {
   return (
@@ -14,8 +15,7 @@ const Footer: React.FC = () => {
           {/* Brand Section */}
           <div className="lg:col-span-1">
             <div className="flex items-center space-x-3 mb-6">
-              <img src="/a1.png" alt="MyClean" className="h-12 w-12" />
-              <span className="text-2xl font-bold">MyClean</span>
+              <Image width={60} height={60} src='/a1.png' alt='MyClean Logo' />
             </div>
             <p className="text-white/80 mb-6 leading-relaxed">
               Transforming waste management with smart technology for cleaner, more sustainable communities.
