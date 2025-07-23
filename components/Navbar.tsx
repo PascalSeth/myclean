@@ -5,6 +5,7 @@ import { useState, useEffect } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import { Menu, X } from "lucide-react"
 import { getNavigationLinks } from "@/config/links"
+import Image from "next/image"
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false)
@@ -36,8 +37,7 @@ const Navbar: React.FC = () => {
             {/* Logo */}
             <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }} className="flex-shrink-0">
               <Link href="/" className="flex items-center space-x-2">
-                <img src="/a1.png" alt="MyClean Logo" className="h-10 w-10 lg:h-12 lg:w-12" />
-                <span className="text-xl lg:text-2xl font-bold text-[#0A8791] hidden sm:block">MyClean</span>
+              <Image width={60} height={60} src='/a1.png' alt='MyClean Logo' />
               </Link>
             </motion.div>
 
