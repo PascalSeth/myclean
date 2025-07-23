@@ -29,7 +29,7 @@ export const APP_LINKS = {
   // Navigation Links
   navigation: [
     { name: "Home", href: "/" },
-    { name: "About Us", href: "/aboutUs" },
+    { name: "About Us", href: "/about-us" },
     { name: "Services", href: "#waste-solutions" },
     { name: "Features", href: "#app-features" },
     { name: "Apps", href: "#our-apps" },
@@ -44,7 +44,7 @@ export const APP_LINKS = {
       { name: "Delete Account", href: "/delete-account" },
     ],
     company: [
-      { name: "About Us", href: "/aboutUs" },
+      { name: "About Us", href: "/about-us" },
       { name: "Careers", href: "/careers" },
       { name: "Press", href: "/press" },
       { name: "Blog", href: "/blog" },

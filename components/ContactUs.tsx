@@ -148,14 +148,7 @@ const ContactUs: React.FC<Props> = () => {
           <div className="mt-6">
             <h3 className="text-2xl font-semibold">Follow Us</h3>
             <div className="flex space-x-4 mt-4">
-              <motion.a
-                href={socialLinks.x}
-                className="bg-white text-[#0A8791] p-3 rounded-full hover:bg-gray-200 transition-colors"
-                whileHover={{ scale: 1.2, rotate: 10 }}
-                whileTap={{ scale: 0.9 }}
-              >
-                <FaX />
-              </motion.a>
+             
               <motion.a
                 href={socialLinks.instagram}
                 className="bg-white text-[#0A8791] p-3 rounded-full hover:bg-gray-200 transition-colors"

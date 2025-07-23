@@ -4,7 +4,7 @@ type Props = {}
 
 function AboutUs({}: Props) {
   return (
-    <div className="bg-gray-100 py-5 px-8">
+    <div className="pt-20 bg-gray-100 py-5 px-8">
       <div className="max-w-4xl mx-auto text-center">
         <h1 className="text-4xl font-bold text-gray-800 mb-6">About MyClean</h1>
         <p className="text-lg text-gray-600 mb-4">
