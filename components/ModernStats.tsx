@@ -6,14 +6,14 @@ import { Users, MapPin, Recycle, Award } from "lucide-react"
 const stats = [
   {
     icon: Users,
-    value: "100+",
+    value: "200+",
     label: "Active Users",
     description: "Trust our platform daily",
   },
   {
     icon: MapPin,
-    value: "10+",
-    label: "Cities",
+    value: "1",
+    label: "City",
     description: "Across multiple countries",
   },
   {

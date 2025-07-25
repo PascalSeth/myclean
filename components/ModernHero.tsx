@@ -3,6 +3,7 @@ import type React from "react"
 import { motion } from "framer-motion"
 import { Star } from "lucide-react"
 import AppStoreButtons from "./AppStoreButtons"
+import PilotProgramDialog from "./PilotProgramDialog"
 
 const ModernHero: React.FC = () => {
   return (
@@ -81,8 +82,8 @@ const ModernHero: React.FC = () => {
                 <div className="text-gray-600">App Store Rating</div>
               </div>
               <div>
-                <div className="text-3xl font-bold text-gray-900">10+</div>
-                <div className="text-gray-600">Cities Served</div>
+                <div className="text-3xl font-bold text-gray-900">1</div>
+                <div className="text-gray-600">City Served</div>
               </div>
             </motion.div>
           </motion.div>
@@ -101,7 +102,7 @@ const ModernHero: React.FC = () => {
                 transition={{ duration: 4, repeat: Number.POSITIVE_INFINITY, ease: "easeInOut" }}
                 className="relative z-20"
               >
-                <img src="/mycleanhome.png" alt="MyClean App" className="w-64 md:w-80 h-auto drop-shadow-2xl" />
+                <img src="/map.png" alt="MyClean App" className="w-64 md:w-80 h-auto drop-shadow-2xl" />
               </motion.div>
 
               {/* Secondary Phone */}
@@ -110,11 +111,7 @@ const ModernHero: React.FC = () => {
                 transition={{ duration: 4, repeat: Number.POSITIVE_INFINITY, ease: "easeInOut", delay: 0.5 }}
                 className="absolute -right-16 top-20 z-10"
               >
-                <img
-                  src="/mycleanaccount.png"
-                  alt="MyClean Features"
-                  className="w-48 md:w-60 h-auto drop-shadow-xl opacity-80"
-                />
+                <img src="/bin.png" alt="MyClean Features" className="w-48 md:w-60 h-auto drop-shadow-xl opacity-80" />
               </motion.div>
 
               {/* Floating Elements */}
@@ -153,6 +150,9 @@ const ModernHero: React.FC = () => {
           <div className="w-1 h-3 bg-gray-400 rounded-full mt-2"></div>
         </motion.div>
       </motion.div>
+
+      {/* Pilot Program Dialog */}
+      <PilotProgramDialog />
     </section>
   )
 }

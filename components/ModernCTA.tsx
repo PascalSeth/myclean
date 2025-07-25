@@ -81,7 +81,7 @@ const ModernCTA: React.FC = () => {
                 transition={{ duration: 4, repeat: Number.POSITIVE_INFINITY, ease: "easeInOut" }}
                 className="relative z-20"
               >
-                <img src="/mycleanhome.png" alt="MyClean App" className="w-64 md:w-80 h-auto drop-shadow-2xl" />
+                <img src="/home.png" alt="MyClean App" className="w-64 md:w-80 h-auto drop-shadow-2xl" />
               </motion.div>
 
               {/* Floating Elements */}

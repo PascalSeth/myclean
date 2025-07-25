@@ -8,13 +8,13 @@ const features = [
     icon: Calendar,
     title: "Smart Scheduling",
     description: "AI-powered scheduling that adapts to your routine and local collection patterns.",
-    image: "/mycleanmain.png",
+    image: "/home.png",
   },
   {
     icon: MapPin,
     title: "Real-Time Tracking",
     description: "Track your collection requests in real-time with live GPS updates.",
-    image: "/mycleanhome.png",
+    image: "/map.png",
   },
   {
     icon: CreditCard,
@@ -26,19 +26,19 @@ const features = [
     icon: Bell,
     title: "Smart Notifications",
     description: "Get timely reminders and updates about your waste collection schedule.",
-    image: "/mycleanaccount.png",
+    image: "/refer.png",
   },
   {
     icon: Shield,
     title: "Verified Collectors",
     description: "All service providers are verified and rated by the community.",
-    image: "/mycleanmain.png",
+    image: "/pickup.png",
   },
   {
     icon: Headphones,
     title: "24/7 Support",
     description: "Round-the-clock customer support to help with any issues or questions.",
-    image: "/mycleanhome.png",
+    image: "/home.png",
   },
 ]
 

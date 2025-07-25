@@ -9,7 +9,7 @@ const services = [
     title: "Residential Collection",
     description: "Scheduled pickups for households with flexible timing and eco-friendly disposal methods.",
     features: ["Weekly/Bi-weekly schedules", "Bulk item collection", "Recycling guidance"],
-    image: "https://zoomlionghana.com/wp-content/uploads/2023/08/Zoomlion_cleaning.jpg",
+    image: "https://i.pinimg.com/1200x/44/39/57/443957bded9e05422edd7b14e6d886cd.jpg",
     color: "from-blue-500 to-blue-600",
   },
   {
@@ -79,14 +79,14 @@ const ModernServices: React.FC = () => {
                   ))}
                 </ul>
 
-                <motion.button
+                {/* <motion.button
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   className="inline-flex items-center px-6 py-3 bg-[#0A8791] text-white font-semibold rounded-xl hover:bg-[#065e62] transition-colors duration-300"
                 >
                   Get Started
                   <ArrowRight className="w-5 h-5 ml-2" />
-                </motion.button>
+                </motion.button> */}
               </div>
 
               {/* Image */}
