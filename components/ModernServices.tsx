@@ -8,8 +8,8 @@ const services = [
     icon: Home,
     title: "Residential Collection",
     description: "Scheduled pickups for households with flexible timing and eco-friendly disposal methods.",
-    features: ["Weekly/Bi-weekly schedules", "Bulk item collection", "Recycling guidance"],
-    image: "https://i.pinimg.com/1200x/44/39/57/443957bded9e05422edd7b14e6d886cd.jpg",
+    features: ["On demand pickups ", "Bulk item collection", "Recycling guidance"],
+    image: "/clenup.png",
     color: "from-blue-500 to-blue-600",
   },
   {

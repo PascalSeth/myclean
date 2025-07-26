@@ -90,7 +90,7 @@ const PilotProgramDialog: React.FC<PilotProgramDialogProps> = ({ open: controlle
                     {/* Phone mockup with home.png */}
                     <div className="w-32 sm:w-40 md:w-48 h-auto relative">
                         <div className="bg-white rounded-[1.25rem] md:rounded-[2rem] overflow-hidden">
-                          <img src="/map.png" alt="MyClean App" className="w-full h-auto object-cover" />
+                          <img src="/splashScreen.png" alt="MyClean App" className="w-full h-auto object-cover" />
                         </div>
                     </div>
 
