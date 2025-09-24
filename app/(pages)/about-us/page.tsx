@@ -1,7 +1,7 @@
 'use client'
 import React, { useState } from 'react'
 import { Card } from '@/components/ui/card'
-import { Crown, Users, Award, Sparkles, ArrowRight, Linkedin, Twitter, Github, Mail } from 'lucide-react'
+import { Crown, Users, Award, Sparkles, ArrowRight, Linkedin, Twitter, Github, Mail, Instagram } from 'lucide-react'
 
 const founder = {
   name: 'Stephen Selorm Bedzrah',
@@ -10,9 +10,9 @@ const founder = {
   bio: 'Visionary entrepreneur with 8+ years in tech innovation. Stephen founded MyClean with a mission to transform urban waste management through cutting-edge technology. Previously led multiple successful startups and holds an MBA in Sustainable Business.',
   achievements: ['Winner of Entrepreneurship with Bola Ray', 'Beneficiary of NEIP Presidential Pitch'],
   social: {
-    linkedin: 'https://linkedin.com/in/stephen-bedzrah',
-    twitter: 'https://twitter.com/stephen_bedzrah',
-    email: 'stephen@myclean.com'
+    linkedin: 'https://www.linkedin.com/in/stephen-bedzrah-6331a916b',
+    twitter: 'https://x.com/manlikebedzrah',
+    instagram: 'https://www.instagram.com/manlikebedzrah',
   }
 }
 
@@ -20,14 +20,14 @@ const teamMembers = [
   {
     name: 'Daniel Amoako Kodua',
     role: 'Co-founder & Backend Developer',
-    image: '/placeholder-user.jpg',
+    image: '/Daniel.jpg',
     specialty: 'Backend Architecture',
     experience: '5+ Years',
     skills: ['Node.js', 'Python', 'Cloud Architecture'],
     social: {
-      linkedin: 'https://linkedin.com/in/daniel',
-      github: 'https://github.com/daniel',
-      email: 'daniel@myclean.com'
+      // linkedin: 'https://linkedin.com/in/daniel',
+      // github: 'https://github.com/daniel',
+      // email: 'daniel@myclean.com'
     }
   },
   {
@@ -39,33 +39,33 @@ const teamMembers = [
     skills: ['React', 'TypeScript', 'UI/UX'],
     social: {
       linkedin: 'https://www.linkedin.com/in/pascal-seth/',
-      twitter: 'https://twitter.com/pascal-seth'
+      twitter: 'https://twitter.com/pascal_seth'
     }
   },
   {
     name: 'Samuel Tutu Sasu-Yiadom',
     role: 'Product Designer',
-    image: '/placeholder-user.jpg',
+    image: '/Nana.jpg',
     specialty: 'Product Design',
     experience: '6+ Years',
     skills: ['Figma', 'Design Systems', 'User Research'],
     social: {
-      linkedin: 'https://linkedin.com/in/samuel-tutu',
-      twitter: 'https://twitter.com/samuel_design',
-      email: 'samuel@myclean.com'
+      // linkedin: 'https://linkedin.com/in/samuel-tutu',
+      // twitter: 'https://twitter.com/samuel_design',
+      // email: 'samuel@myclean.com'
     }
   },
   {
     name: 'Papa Kofi Boahen',
     role: 'Mobile Developer',
-    image: '/placeholder-user.jpg',
+    image: '/Papakofi.jpg',
     specialty: 'Mobile Development',
     experience: '3+ Years',
     skills: ['React Native', 'Flutter', 'iOS/Android'],
     social: {
-      linkedin: 'https://linkedin.com/in/papa-boahen',
-      github: 'https://github.com/papa-kofi',
-      email: 'papa@myclean.com'
+      // linkedin: 'https://linkedin.com/in/papa-boahen',
+      // github: 'https://github.com/papa-kofi',
+      // email: 'papa@myclean.com'
     }
   }
 ]
@@ -85,6 +85,7 @@ function AboutUs() {
       case 'linkedin': return Linkedin
       case 'twitter': return Twitter
       case 'github': return Github
+      case 'instagram': return Instagram
       case 'email': return Mail
       default: return Mail
     }
