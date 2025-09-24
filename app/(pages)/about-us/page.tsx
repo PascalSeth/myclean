@@ -25,9 +25,8 @@ const teamMembers = [
     experience: '5+ Years',
     skills: ['Node.js', 'Python', 'Cloud Architecture'],
     social: {
-      // linkedin: 'https://linkedin.com/in/daniel',
-      // github: 'https://github.com/daniel',
-      // email: 'daniel@myclean.com'
+      linkedin: 'https://www.linkedin.com/in/daniel-amoako-kodua-4b4174240/',
+      instagram: 'https://www.instagram.com/officialjwise/'
     }
   },
   {
@@ -50,9 +49,8 @@ const teamMembers = [
     experience: '6+ Years',
     skills: ['Figma', 'Design Systems', 'User Research'],
     social: {
-      // linkedin: 'https://linkedin.com/in/samuel-tutu',
-      // twitter: 'https://twitter.com/samuel_design',
-      // email: 'samuel@myclean.com'
+      linkedin: 'https://www.linkedin.com/in/samuel-sasu-yiadom',
+      instagram: 'https://www.instagram.com/ux.kwaku'
     }
   },
   {
@@ -63,9 +61,7 @@ const teamMembers = [
     experience: '3+ Years',
     skills: ['React Native', 'Flutter', 'iOS/Android'],
     social: {
-      // linkedin: 'https://linkedin.com/in/papa-boahen',
-      // github: 'https://github.com/papa-kofi',
-      // email: 'papa@myclean.com'
+      linkedin: 'https://www.linkedin.com/in/papakofiboahen'
     }
   }
 ]
