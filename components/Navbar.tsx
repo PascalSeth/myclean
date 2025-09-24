@@ -132,7 +132,6 @@ const Navbar: React.FC = () => {
                 {/* Header */}
                 <div className="flex items-center justify-between p-6 border-b border-gray-100">
                   <div className="flex items-center space-x-3">
-                    <img src="/a1.png" alt="MyClean" className="h-10 w-10" />
                     <span className="text-xl font-bold text-[#0A8791]">MyClean</span>
                   </div>
                   <motion.button
